@@ -26,4 +26,5 @@ Verificar a preferência do agente com base na distância do mercado, no valor d
 As ações ocorrem em um período único da seguinte forma: um agente com uma id possui uma conta, esta conta possui uma taxa de cheque especial variando randomicamente de 3%, 5% ou 7%, este agente recebe um salário fixo e com base no critério de preferência aleatoriamente escolhido se dirige até um mercado com uma id que possui o custo do mantimento variando aleatoriamente de 80 a 120% do salário do agente e uma política de cash-back  variando randomicamente de 0 a 3% do valor dos mantimentos.
 
 ## Como executar o programa
-escolha uma quantidade de agente 
+No módulo simulação escolha uma quantidade de agente e de mercados e o valor do salário.
+Os resultados serão printados no console e os dados gerados serão salvos no arquivo simulacao.csv que será gerado na mesma pasta que encontram-se os programas.
