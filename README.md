@@ -1,6 +1,8 @@
-# Trabalho Final de ABM em Python
+# Trabalho Final da disciplina de Modelagem Baseada em Agentes (ABM) em Python do Mestrado do Ipea
+### Sob orientação do Prof. Dr. Bernando Furtado
 
-Professor Bernado, não é uma modelagem “Matrix” nem mesmo uma tentativa de previsão com base na psico-história de Isaac Asimov, mas é um começo pra tentar compreender/abstrair o comportamento de agentes em um processo de inflação (arbitrariamente estabelecida) com variação nas taxas de cheques especial quando o salário se mantém constante.
+## Este trabalho procurou aplicar os conhecimentos adquiridos ao longo do curso, como funções, loops, condicionantes, operadores lógicos 
+Professor Bernado, não é uma modelagem da realidade no nível de “Matrix” nem mesmo uma tentativa de previsão com base na psico-história de Isaac Asimov, mas é um começo em ABM ao tentar compreender/abstrair o comportamento de agentes em um processo de inflação (arbitrariamente estabelecida) com variação nas taxas de cheques especial quando o salário se mantém constante.
 O resultado é uma quimera da segunda lista de exercícios com o seu exemplo de escolha de posto de combustível.
 
 ##	Quais são os agentes?
@@ -26,5 +28,5 @@ Verificar a preferência do agente com base na distância do mercado, no valor d
 As ações ocorrem em um período único da seguinte forma: um agente com uma id possui uma conta, esta conta possui uma taxa de cheque especial variando randomicamente de 3%, 5% ou 7%, este agente recebe um salário fixo e com base no critério de preferência aleatoriamente escolhido se dirige até um mercado com uma id que possui o custo do mantimento variando aleatoriamente de 80 a 120% do salário do agente e uma política de cash-back  variando randomicamente de 0 a 3% do valor dos mantimentos.
 
 ## Como executar o programa
-No módulo simulação escolha uma quantidade de agente e de mercados e o valor do salário.
-Os resultados serão printados no console e os dados gerados serão salvos no arquivo simulacao.csv que será gerado na mesma pasta que encontram-se os programas.
+No módulo simulação é feita a escolha da quantidade de agentem e de mercados e do valor do salário.
+Os resultados serão exibidos no console e os dados gerados serão salvos no arquivo simulacao.csv que será gerado na mesma pasta que encontram-se os programas.
