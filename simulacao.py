@@ -51,7 +51,7 @@ class Simulacao:
         for cliente in self.clientes:
             cliente.mercado.nova_venda(cliente)
 
-        valores = ["cliente,localizacao do cliente,mercado,localizacao do mercado,custo do mercado,bonus do mercado,"
+        valores = ["cliente, localizacao_cliente, mercado, localizacao_mercado, custo_mercado,bonus_mercado,"
                    "valor da compra,preferencia do cliente,saldo do cliente,divida do cliente, cashback utilizado"]
         for cliente in self.clientes:
             # Valor a ser registrado no arquivo
